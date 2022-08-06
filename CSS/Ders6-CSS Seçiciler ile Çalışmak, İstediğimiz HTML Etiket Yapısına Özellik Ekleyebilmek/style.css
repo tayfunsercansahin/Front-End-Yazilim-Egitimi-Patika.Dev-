@@ -1,0 +1,28 @@
+
+/*
+    CSS Selectors
+
+
+*/
+
+ul > li:first-child {
+    color: green;
+}
+
+ul > li:last-child {
+    color: aqua;
+}
+
+li:nth-child(3) {
+    color: red;
+}
+
+.color-blue.fw-normal {
+    color: blue;
+    font-weight: normal;
+}
+
+.color-blue .fw-normal {
+    color: blue;
+    font-weight: normal;
+}

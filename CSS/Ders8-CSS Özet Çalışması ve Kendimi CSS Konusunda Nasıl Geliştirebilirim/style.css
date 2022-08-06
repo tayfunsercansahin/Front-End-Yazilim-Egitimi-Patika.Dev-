@@ -1,0 +1,18 @@
+
+/*
+    -Sürekli hoşunuza giden sayfaları inspect(incele) diyip kodları deneyin.
+    -Karşılaştığınız farklı tasarımları ingilizce olarak Google'da aratın ve kodunuzda deneyin. (CSS Shadow gibi böyle yazarak butondaki gölgeyi araştırmıştık.)
+    -CSS tasarım sitelerine bakabilirsiniz. (Ne gibi siteler olduğunu görürsünüz.)
+*/
+
+.gradient {
+    background: linear-gradient(90deg,rgba(45,156,219,.6),rgba(155,81,224,.6));
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: white;
+    text-decoration: none;
+    width: 50px;
+}

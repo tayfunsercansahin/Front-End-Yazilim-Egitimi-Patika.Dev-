@@ -1,0 +1,101 @@
+
+/*
+    içerik(content): elementin içindeki resim, ses ya da yazıdır.
+    padding: içerik ile border arasında olan boşluktur.
+    border: padding ile margini ayıran sınırdır.
+    margin: kutunun diğer kutularla arasındaki mesafeyi ayarlayan boşluktur.
+
+    ------------------------
+    |margin: dış boşluk    |
+    ------------------------
+    |border: sınır çizgisi |
+    ------------------------
+    |padding: iç boşluk    |
+    ------------------------
+    |içerik(content)       |
+    ------------------------
+    |padding: iç boşluk    |
+    ------------------------
+    |border: sınır çizgisi |
+    ------------------------
+    |margin: dış boşluk    |
+    ------------------------
+
+    -width ve height ile lego parçamızın boy ve genişliğini ayarlayabiliriz. (px, em, %)
+    -margin özelliği 50px olursa elementin dört yanında 50px boşluk bırakır.
+    -margin-left: soldan boşluk bırakır.
+    -margin-top: yukarıdan boşluk bırakır.
+    -margin-bottom: aşağıdan boşluk bırakır.
+    -margin-right: sağdan boşluk bırakır.
+    -margini tek satırda ayarlamak için; 
+    margin: 100px 150px 60px 50px (saat yönünde)
+    -bir elementi ortalamak için: margin:auto
+    -padding-top: içeriğin yukarısında boşluk.
+    -padding-bottom: içeriğin aşağısında boşluk.
+    -padding-left: içeriğin solunda boşluk.
+    -padding-right: içeriğin sağında boşluk.
+    -paddingi tek satırda ayarlamak için;
+    padding: 10px 20px 30px 40px (saat yönünde)
+    padding: 10px 20px 30px 
+    (üst10 sağ-sol 20 alt 30)
+    padding: 10px 20px (üst-alt 10, sağ-sol 20)
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1000px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 50px auto 0;
+}
+
+.left-bar {
+    width: 200px;
+    float: left;
+}
+
+.content {
+    width: 800px;
+    float: left;
+}
+
+.card {
+    width: 20%;
+    float: left;
+    padding: 5%;
+    margin-right: 3%;
+    background-color: rgb(209,209,209);
+    border-radius: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    /* margin: 10px; */
+    margin-right: 10px;
+    /* margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px; */
+    float: left;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
